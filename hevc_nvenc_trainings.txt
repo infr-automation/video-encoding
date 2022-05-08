@@ -1,0 +1,4 @@
+ -f mp4
+ -c:v hevc_nvenc -preset p6 -cq 31 -rc vbr -rc_lookahead 200 -temporal-aq 1 -multipass fullres
+ -c:a libfdk_aac -vbr 1 -b:a 52k -fdkprofile hev2
+ -sn
